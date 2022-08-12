@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+ <listener class-name="com.GenericLibrary.ListenerImplementation"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ActionsPracticeTest.ContextClickTest"/>
+      <class name="com.ActionsPracticeTest.Flipkart_DragAndDropByTest"/>
+      <class name="com.ActionsPracticeTest.MouseHoverTo_ElementOffsetTest"/>
+      <class name="com.ActionsPracticeTest.MouseHoverActionsTest"/>
+      <class name="com.ActionsPracticeTest.DragAndDropTest"/>
+      <class name="com.ActionsPracticeTest.ScrollingTest"/>
+      <class name="com.ActionsPracticeTest.ClickAndHoldTest"/>
+      <class name="com.ActionsPracticeTest.KeyUpKeyDown_WithElementGoogleTest"/>
+      <class name="com.ActionsPracticeTest.KeyUPKeyDownTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
